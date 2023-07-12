@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/4dc77b884a.js" crossorigin="anonymous"></script>
+</head>  
+<body>
+    <nav>
+        <input type="check box" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+<label class="logo"> BMI calculator</label>
+     <ul>
+<li ><a class="active" href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="feedback.html">feedback</a></li>
+ </ul>
+
+</nav>
+
+<div class="bmi">
+   <center> <img src="https://cdn.runningshoesguru.com/wp-content/uploads/2019/07/BMI-Body-Mass-Index-for-Runners.jpg" width="500"/></center>
+</div>
+
+<form  id="form" onsubmit="calc();return false">
+ 
+<div class="container">
+   <center><h3><font color="#d4ff00" size="5">Get your BMI</font></h3></center><br><br>
+ <form>
+
+ 
+<label for="kg"><font color="white" size="5">Add your weight in kg:</font>  </label>
+<input type="number" id="kg" name="kg">
+<br><br>
+<label for="meter" ><font color="white" size="5"
+>Add hight in meter:</font></label>
+<input type="number" id="meter" name="meter"><br><br>
+<h2><font color="white">Result</font></h2>
+&nbsp;
+<h2 id="change"><font color="white"></font></h2>
+<br><br>
+<button type="submit"onclick="calc()"><font color="red" size="5">Calculate</font> </button>
+</form>
+</div>
+<div class="img">
+    <img  src="https://www.medindia.net/patients/calculators/images/body-mass-index-bmi-chart.jpg" width="650" />
+
+</div>
+<div class="feet">
+    <form id="feet to meter" onsubmit="calcu(); return false">
+        
+    <h3><center><font color="white" size="6">Get hight in meter:</font></center></h3><br><br>
+    <label for="feet"></label>
+ <font color="white" size="5">IN feet: </font> <input type="number" id="feet" placeholder="enter hight in feet">
+ <br><br>
+ <label for="inch" ></label>
+ <font color="white" size="5"> IN Inches: </font><input type="number" id="inch" name="inch" placeholder=" enter Inches">
+ <br><br>
+ <h2 id="hello"><font color="white"></font></h2>
+ <button type="submit"onclick="calcu()"><font color="blue" size="5">Calculate </font></button>
+</form>
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

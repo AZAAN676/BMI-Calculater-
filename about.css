@@ -1,0 +1,21 @@
+*{
+    
+    
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background-color: #1c7d90;
+    height: 80px;
+    width: 100%;}
+    label.logo{
+        color: white;
+        font-size:  35px;
+        line-height: 80px;
+        font-weight: bold;
+        padding: 0 180px;
+    }
